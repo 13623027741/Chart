@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043F3CF11FC2FD7200625474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F3CF01FC2FD7200625474 /* AppDelegate.m */; };
+		043F3CF41FC2FD7200625474 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F3CF31FC2FD7200625474 /* ViewController.m */; };
+		043F3CF71FC2FD7200625474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F3CF51FC2FD7200625474 /* Main.storyboard */; };
+		043F3CF91FC2FD7200625474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F3CF81FC2FD7200625474 /* Assets.xcassets */; };
+		043F3CFC1FC2FD7200625474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F3CFA1FC2FD7200625474 /* LaunchScreen.storyboard */; };
+		043F3CFF1FC2FD7200625474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F3CFE1FC2FD7200625474 /* main.m */; };
+		043F3D071FC2FD9500625474 /* KChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F3D061FC2FD9500625474 /* KChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043F3CEC1FC2FD7200625474 /* KChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F3CEF1FC2FD7200625474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043F3CF01FC2FD7200625474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043F3CF21FC2FD7200625474 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043F3CF31FC2FD7200625474 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043F3CF61FC2FD7200625474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043F3CF81FC2FD7200625474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043F3CFB1FC2FD7200625474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043F3CFD1FC2FD7200625474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F3CFE1FC2FD7200625474 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043F3D051FC2FD9500625474 /* KChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KChartView.h; sourceTree = "<group>"; };
+		043F3D061FC2FD9500625474 /* KChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043F3CE91FC2FD7200625474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043F3CE31FC2FD7200625474 = {
+			isa = PBXGroup;
+			children = (
+				043F3CEE1FC2FD7200625474 /* KChat */,
+				043F3CED1FC2FD7200625474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043F3CED1FC2FD7200625474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043F3CEC1FC2FD7200625474 /* KChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043F3CEE1FC2FD7200625474 /* KChat */ = {
+			isa = PBXGroup;
+			children = (
+				043F3D081FC7D0C400625474 /* ChartView */,
+				043F3CEF1FC2FD7200625474 /* AppDelegate.h */,
+				043F3CF01FC2FD7200625474 /* AppDelegate.m */,
+				043F3CF21FC2FD7200625474 /* ViewController.h */,
+				043F3CF31FC2FD7200625474 /* ViewController.m */,
+				043F3CF51FC2FD7200625474 /* Main.storyboard */,
+				043F3CF81FC2FD7200625474 /* Assets.xcassets */,
+				043F3CFA1FC2FD7200625474 /* LaunchScreen.storyboard */,
+				043F3CFD1FC2FD7200625474 /* Info.plist */,
+				043F3CFE1FC2FD7200625474 /* main.m */,
+			);
+			path = KChat;
+			sourceTree = "<group>";
+		};
+		043F3D081FC7D0C400625474 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				043F3D051FC2FD9500625474 /* KChartView.h */,
+				043F3D061FC2FD9500625474 /* KChartView.m */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043F3CEB1FC2FD7200625474 /* KChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F3D021FC2FD7200625474 /* Build configuration list for PBXNativeTarget "KChat" */;
+			buildPhases = (
+				043F3CE81FC2FD7200625474 /* Sources */,
+				043F3CE91FC2FD7200625474 /* Frameworks */,
+				043F3CEA1FC2FD7200625474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KChat;
+			productName = KChat;
+			productReference = 043F3CEC1FC2FD7200625474 /* KChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043F3CE41FC2FD7200625474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					043F3CEB1FC2FD7200625474 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 043F3CE71FC2FD7200625474 /* Build configuration list for PBXProject "KChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043F3CE31FC2FD7200625474;
+			productRefGroup = 043F3CED1FC2FD7200625474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043F3CEB1FC2FD7200625474 /* KChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043F3CEA1FC2FD7200625474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F3CFC1FC2FD7200625474 /* LaunchScreen.storyboard in Resources */,
+				043F3CF91FC2FD7200625474 /* Assets.xcassets in Resources */,
+				043F3CF71FC2FD7200625474 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043F3CE81FC2FD7200625474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F3D071FC2FD9500625474 /* KChartView.m in Sources */,
+				043F3CF41FC2FD7200625474 /* ViewController.m in Sources */,
+				043F3CFF1FC2FD7200625474 /* main.m in Sources */,
+				043F3CF11FC2FD7200625474 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043F3CF51FC2FD7200625474 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F3CF61FC2FD7200625474 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043F3CFA1FC2FD7200625474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F3CFB1FC2FD7200625474 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043F3D001FC2FD7200625474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043F3D011FC2FD7200625474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043F3D031FC2FD7200625474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaidan.KChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043F3D041FC2FD7200625474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaidan.KChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043F3CE71FC2FD7200625474 /* Build configuration list for PBXProject "KChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F3D001FC2FD7200625474 /* Debug */,
+				043F3D011FC2FD7200625474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F3D021FC2FD7200625474 /* Build configuration list for PBXNativeTarget "KChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F3D031FC2FD7200625474 /* Debug */,
+				043F3D041FC2FD7200625474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043F3CE41FC2FD7200625474 /* Project object */;
+}
